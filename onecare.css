@@ -1,0 +1,106 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(61, 98, 167);
+}
+
+.container {
+    background-color: antiquewhite;
+    margin-top: 55px;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+header {
+    color: blue;
+    text-align: center;
+    padding-top: 50px;
+}
+
+p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+} 
+
+span.diff {
+    font-weight: normal;
+    color: grey;
+}
+
+form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey
+   }
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(20, 35, 172);
+    color: white;
+    padding: 14px 20px;
+    margin: 30px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(20, 10, 29);
+}
+
+div {
+    padding: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .container, form, div {
+      width:100%;
+    }
+
+    input[type=text], input[type=submit], input[type=password] {
+        width: 80%;
+  }
+
+  input[type=email] {
+      width: 30%,
+  }
+}
